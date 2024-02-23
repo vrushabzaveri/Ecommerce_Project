@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.main_wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bordered-image {
+    border: 3px solid #000;
+    max-width: 150px;
+    height: auto;
+}
+
+.header_wrapper {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#Navbar {
+    background-color: red;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: #fff;
+}
+
+#menu li {
+    margin-right: 15px;
+}
+
+/* Form Styles */
+#form {
+    display: flex;
+    float: left;
+    line-height: 50px;
+    padding-right: 5px;
+}
+
+#form input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#form input[type="submit"] {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Content Section Styles */
+.content_wrapper {
+    display: flex;
+    padding: 20px;
+}
+
+#cart_content {
+    display: center;
+    padding: 10px;
+}
+
+#left_sidebar {
+    background-color: #eee;
+    padding: 10px;
+    margin-right: 15px;
+    width: 20%;
+}
+
+.product-description {
+    white-space: pre-line;
+}
+
+#right_content {
+    flex: 1;
+    width: 70%;
+}
+
+#sidebar_title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#cats {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#cats li {
+    margin-bottom: 5px;
+}
+
+#headline {
+    background-color: #333;
+    color: white;
+    float: right;
+    height: 35px;
+    width: 100%;
+    padding: 6px;
+    margin-top: 20px;
+}
+
+#headline_content {
+    float: right;
+}
+
+#products_box {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#single_product {
+    float: left;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.single_product img {
+    border: 1px solid black;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: aquamarine;
+    padding: 20px;
+    text-align: center;
+}
+
+.ImageFIle {
+    width: 100%;
+    height: auto;
+}
